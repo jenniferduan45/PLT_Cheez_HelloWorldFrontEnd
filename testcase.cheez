@@ -1,0 +1,20 @@
+// test case for Cheez hello world!
+int foo(int a, int b)
+{
+    return a;
+}
+
+string hello() { return "hello"; }
+string world() { return "world";  }
+string bar()   { return "yay!"; }
+
+int main()
+{
+    int c = 1;
+    int d = 2;
+    print(c+d);
+
+    print('hello' + " world");
+    hello();
+    int e = foo(3, 5);
+}
